@@ -1,8 +1,6 @@
 package Composite.ProdutosExample;
 
-
 public class KitProdutos implements ProdutoI {
-  
   private ProdutoI[] produtos;
 
   public KitProdutos(ProdutoI[] produtos){

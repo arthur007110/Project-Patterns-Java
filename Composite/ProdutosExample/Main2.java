@@ -6,9 +6,10 @@ public class Main2 {
     produtos[0] = new Produto(10);
     produtos[1] = new Produto(20);
     produtos[2] = new Produto(30);
+  
     ProdutoI kit = new KitProdutos(produtos);
-
     ProdutoI kit2 = new KitProdutos(new ProdutoI[] {kit, new Produto(40)});
+
     System.out.println(kit2.getPreco());
   }
 }
