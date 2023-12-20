@@ -1,15 +1,15 @@
 package Composite.ProdutosExample;
 
-public class KitProdutos implements ProdutoI {
-  private ProdutoI[] produtos;
+public class KitProdutos implements Item {
+  private Item[] produtos;
 
-  public KitProdutos(ProdutoI[] produtos){
+  public KitProdutos(Item[] produtos){
     this.produtos = produtos;
   }
 
   public double getPreco(){
     double preco = 0;
-    for(ProdutoI produto : produtos){
+    for(Item produto : produtos){
       preco += produto.getPreco();
     }
     return preco;

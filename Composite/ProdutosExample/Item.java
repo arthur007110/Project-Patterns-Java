@@ -1,5 +1,5 @@
 package Composite.ProdutosExample;
 
-public interface ProdutoI {
+public interface Item {
   public double getPreco();
 }

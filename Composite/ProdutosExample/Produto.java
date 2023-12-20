@@ -1,6 +1,6 @@
 package Composite.ProdutosExample;
 
-public class Produto implements ProdutoI {
+public class Produto implements Item {
   private double preco;
 
   public Produto(double preco) {
